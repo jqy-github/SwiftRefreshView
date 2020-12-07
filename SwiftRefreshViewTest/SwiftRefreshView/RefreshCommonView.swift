@@ -19,8 +19,8 @@ enum RefreshState {
 
 class RefreshCommonView: UIView {
 
-    weak var target : AnyObject?
-    var action : Selector?
+    private  weak var target : AnyObject?
+    private  var action : Selector?
     weak var scrollView : UIScrollView?
     var refreshCall : (()->())?
     var state = RefreshState.normal

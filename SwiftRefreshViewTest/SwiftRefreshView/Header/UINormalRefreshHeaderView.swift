@@ -11,7 +11,7 @@ import UIKit
 class UINormalRefreshHeaderView: RefreshHeaderView {
    private let stateLabel = UILabel()
    private let arrowImageView = UIImageView()
-   private let refreshActivityIndicatorView = UIActivityIndicatorView.init(style: UIActivityIndicatorView.Style.medium)
+   private let refreshActivityIndicatorView = UIActivityIndicatorView.init(style: UIActivityIndicatorView.Style.gray)
    override func setViews() {
         stateLabel.textAlignment = .center
         stateLabel.font = UIFont.systemFont(ofSize: 15)
@@ -56,8 +56,9 @@ class UINormalRefreshHeaderView: RefreshHeaderView {
          self.refreshActivityIndicatorView.isHidden = true
          self.arrowImageView.isHidden = false
          stateLabel.text = "下拉刷新"
-         UIView.animate(withDuration: 0.25) {
-             self.arrowImageView.transform = CGAffineTransform(rotationAngle: 0)
+         UIView.animate(withDuration: 0.3) {
+           self.arrowImageView.transform = CGAffineTransform(rotationAngle: 0)
          }
+         
     }
 }

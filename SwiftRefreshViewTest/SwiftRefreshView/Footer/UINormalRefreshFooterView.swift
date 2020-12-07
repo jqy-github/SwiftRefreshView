@@ -10,7 +10,7 @@ import UIKit
 
 class UINormalRefreshFooterView: RefreshFooterView {
 
-    private let refreshActivityIndicatorView = UIActivityIndicatorView.init(style: UIActivityIndicatorView.Style.medium)
+    private let refreshActivityIndicatorView = UIActivityIndicatorView.init(style: UIActivityIndicatorView.Style.gray)
     private let loadingView = UIView()
     private let controlButton = UIButton()
     override func setViews() {
@@ -20,7 +20,7 @@ class UINormalRefreshFooterView: RefreshFooterView {
         let refreshLabel = UILabel()
         refreshLabel.text = "加载中..."
         refreshLabel.textColor = .gray
-        refreshLabel.font = UIFont.systemFont(ofSize: 15)
+        refreshLabel.font = UIFont.systemFont(ofSize: 12)
         loadingView.addSubview(refreshLabel)
         loadingView.snp.makeConstraints { (make) in
             make.edges.equalTo(self)
@@ -35,8 +35,8 @@ class UINormalRefreshFooterView: RefreshFooterView {
             make.width.height.equalTo(13)
         }
         controlButton.addTarget(self, action: #selector(beginRefresh), for: UIControl.Event.touchUpInside)
-        controlButton.setTitleColor(.gray, for: UIControl.State.normal)
-        controlButton.titleLabel?.font = UIFont.systemFont(ofSize: 15)
+        controlButton.setTitleColor(.lightGray, for: UIControl.State.normal)
+        controlButton.titleLabel?.font = UIFont.systemFont(ofSize: 12)
         self.addSubview(controlButton)
         controlButton.snp.makeConstraints { (make) in
             make.edges.equalTo(self)
@@ -64,7 +64,7 @@ class UINormalRefreshFooterView: RefreshFooterView {
         super.setRefreshStateIsNoMoreData()
         self.loadingView.isHidden = true
         self.controlButton.isEnabled = false
-        self.controlButton.setTitle("没有更多数据了", for: UIControl.State.normal)
+        self.controlButton.setTitle("—————    没错 我就是底线    —————", for: UIControl.State.normal)
         self.controlButton.isHidden = false
     }
 }

@@ -1,6 +1,6 @@
 //
 //  RefreshExtension.swift
-//  Live
+//  Live       
 //
 //  Created by jqy on 2020/5/28.
 //  Copyright © 2020 J丶QY. All rights reserved.
@@ -51,6 +51,18 @@ extension UIScrollView {
         }
     }
     
+    var re_contentW : CGFloat {
+        get{
+            self.contentSize.width
+        }
+    }
+    
+    var re_contentOffsetX : CGFloat{
+        get{
+            self.contentOffset.x
+        }
+    }
+    
     var re_contentOffsetY : CGFloat{
         get{
             self.contentOffset.y
@@ -74,6 +86,22 @@ extension UIScrollView {
             self.contentInset.bottom = newValue
         }
     }
+    
+    var re_safeAreaInsetsTop: CGFloat {
+        if #available(iOS 11.0, *) {
+            return self.safeAreaInsets.top
+        } else {
+            return 0
+        }
+    }
+    var re_safeAreaInsetsBottom : CGFloat{
+        if #available(iOS 11.0, *) {
+           return self.safeAreaInsets.bottom
+        } else {
+            return 0
+        }
+    }
+    
     
 }
 
@@ -150,6 +178,15 @@ extension UIView {
         }
         set{
             self.center = CGPoint(x: newValue, y: self.center.y)
+        }
+    }
+    
+    var re_centerY : CGFloat{
+        get{
+            return self.center.y
+        }
+        set{
+            self.center = CGPoint(x: self.center.x, y: newValue)
         }
     }
     

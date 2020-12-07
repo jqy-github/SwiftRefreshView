@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A32587C257DFD2A00C3B217 /* RefreshFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A325874257DFD2A00C3B217 /* RefreshFooterView.swift */; };
+		6A32587D257DFD2A00C3B217 /* UINormalRefreshFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A325875257DFD2A00C3B217 /* UINormalRefreshFooterView.swift */; };
+		6A32587E257DFD2A00C3B217 /* RefreshCommonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A325876257DFD2A00C3B217 /* RefreshCommonView.swift */; };
+		6A32587F257DFD2A00C3B217 /* RefreshExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A325877257DFD2A00C3B217 /* RefreshExtension.swift */; };
+		6A325880257DFD2A00C3B217 /* UINormalRefreshHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A325879257DFD2A00C3B217 /* UINormalRefreshHeaderView.swift */; };
+		6A325881257DFD2A00C3B217 /* RefreshHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A32587A257DFD2A00C3B217 /* RefreshHeaderView.swift */; };
+		6A325882257DFD2A00C3B217 /* SwiftRefreshViewResourse.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6A32587B257DFD2A00C3B217 /* SwiftRefreshViewResourse.bundle */; };
 		6A915D232486036E008F0E63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A915D222486036E008F0E63 /* AppDelegate.swift */; };
 		6A915D252486036E008F0E63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A915D242486036E008F0E63 /* SceneDelegate.swift */; };
 		6A915D272486036E008F0E63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A915D262486036E008F0E63 /* ViewController.swift */; };
 		6A915D2A2486036E008F0E63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A915D282486036E008F0E63 /* Main.storyboard */; };
 		6A915D2C24860372008F0E63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A915D2B24860372008F0E63 /* Assets.xcassets */; };
 		6A915D2F24860372008F0E63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A915D2D24860372008F0E63 /* LaunchScreen.storyboard */; };
-		6A915D40248603A2008F0E63 /* RefreshFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A915D38248603A2008F0E63 /* RefreshFooterView.swift */; };
-		6A915D41248603A2008F0E63 /* UINormalRefreshFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A915D39248603A2008F0E63 /* UINormalRefreshFooterView.swift */; };
-		6A915D42248603A2008F0E63 /* RefreshCommonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A915D3A248603A2008F0E63 /* RefreshCommonView.swift */; };
-		6A915D43248603A2008F0E63 /* RefreshExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A915D3B248603A2008F0E63 /* RefreshExtension.swift */; };
-		6A915D44248603A2008F0E63 /* UINormalRefreshHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A915D3D248603A2008F0E63 /* UINormalRefreshHeaderView.swift */; };
-		6A915D45248603A2008F0E63 /* RefreshHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A915D3E248603A2008F0E63 /* RefreshHeaderView.swift */; };
-		6A915D46248603A2008F0E63 /* SwiftRefreshViewResourse.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6A915D3F248603A2008F0E63 /* SwiftRefreshViewResourse.bundle */; };
 		6A915D6F248603B5008F0E63 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6A915D48248603B5008F0E63 /* LICENSE */; };
 		6A915D70248603B5008F0E63 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A915D4A248603B5008F0E63 /* ConstraintMultiplierTarget.swift */; };
 		6A915D71248603B5008F0E63 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A915D4B248603B5008F0E63 /* LayoutConstraintItem.swift */; };
@@ -61,6 +61,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A325874257DFD2A00C3B217 /* RefreshFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshFooterView.swift; sourceTree = "<group>"; };
+		6A325875257DFD2A00C3B217 /* UINormalRefreshFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINormalRefreshFooterView.swift; sourceTree = "<group>"; };
+		6A325876257DFD2A00C3B217 /* RefreshCommonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshCommonView.swift; sourceTree = "<group>"; };
+		6A325877257DFD2A00C3B217 /* RefreshExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshExtension.swift; sourceTree = "<group>"; };
+		6A325879257DFD2A00C3B217 /* UINormalRefreshHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINormalRefreshHeaderView.swift; sourceTree = "<group>"; };
+		6A32587A257DFD2A00C3B217 /* RefreshHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshHeaderView.swift; sourceTree = "<group>"; };
+		6A32587B257DFD2A00C3B217 /* SwiftRefreshViewResourse.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SwiftRefreshViewResourse.bundle; sourceTree = "<group>"; };
 		6A915D1F2486036E008F0E63 /* SwiftRefreshViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftRefreshViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A915D222486036E008F0E63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A915D242486036E008F0E63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,13 +76,6 @@
 		6A915D2B24860372008F0E63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A915D2E24860372008F0E63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A915D3024860372008F0E63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6A915D38248603A2008F0E63 /* RefreshFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshFooterView.swift; sourceTree = "<group>"; };
-		6A915D39248603A2008F0E63 /* UINormalRefreshFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINormalRefreshFooterView.swift; sourceTree = "<group>"; };
-		6A915D3A248603A2008F0E63 /* RefreshCommonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshCommonView.swift; sourceTree = "<group>"; };
-		6A915D3B248603A2008F0E63 /* RefreshExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshExtension.swift; sourceTree = "<group>"; };
-		6A915D3D248603A2008F0E63 /* UINormalRefreshHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINormalRefreshHeaderView.swift; sourceTree = "<group>"; };
-		6A915D3E248603A2008F0E63 /* RefreshHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshHeaderView.swift; sourceTree = "<group>"; };
-		6A915D3F248603A2008F0E63 /* SwiftRefreshViewResourse.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SwiftRefreshViewResourse.bundle; sourceTree = "<group>"; };
 		6A915D48248603B5008F0E63 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6A915D4A248603B5008F0E63 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
 		6A915D4B248603B5008F0E63 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraintItem.swift; sourceTree = "<group>"; };
@@ -127,6 +127,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A325872257DFD2A00C3B217 /* SwiftRefreshView */ = {
+			isa = PBXGroup;
+			children = (
+				6A325873257DFD2A00C3B217 /* Footer */,
+				6A325876257DFD2A00C3B217 /* RefreshCommonView.swift */,
+				6A325877257DFD2A00C3B217 /* RefreshExtension.swift */,
+				6A325878257DFD2A00C3B217 /* Header */,
+				6A32587B257DFD2A00C3B217 /* SwiftRefreshViewResourse.bundle */,
+			);
+			path = SwiftRefreshView;
+			sourceTree = "<group>";
+		};
+		6A325873257DFD2A00C3B217 /* Footer */ = {
+			isa = PBXGroup;
+			children = (
+				6A325874257DFD2A00C3B217 /* RefreshFooterView.swift */,
+				6A325875257DFD2A00C3B217 /* UINormalRefreshFooterView.swift */,
+			);
+			path = Footer;
+			sourceTree = "<group>";
+		};
+		6A325878257DFD2A00C3B217 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				6A325879257DFD2A00C3B217 /* UINormalRefreshHeaderView.swift */,
+				6A32587A257DFD2A00C3B217 /* RefreshHeaderView.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
 		6A915D162486036E008F0E63 = {
 			isa = PBXGroup;
 			children = (
@@ -149,44 +179,14 @@
 				6A915D222486036E008F0E63 /* AppDelegate.swift */,
 				6A915D242486036E008F0E63 /* SceneDelegate.swift */,
 				6A915D262486036E008F0E63 /* ViewController.swift */,
+				6A325872257DFD2A00C3B217 /* SwiftRefreshView */,
 				6A915D47248603B5008F0E63 /* SnapKit */,
-				6A915D36248603A2008F0E63 /* SwiftRefreshView */,
 				6A915D282486036E008F0E63 /* Main.storyboard */,
 				6A915D2B24860372008F0E63 /* Assets.xcassets */,
 				6A915D2D24860372008F0E63 /* LaunchScreen.storyboard */,
 				6A915D3024860372008F0E63 /* Info.plist */,
 			);
 			path = SwiftRefreshViewTest;
-			sourceTree = "<group>";
-		};
-		6A915D36248603A2008F0E63 /* SwiftRefreshView */ = {
-			isa = PBXGroup;
-			children = (
-				6A915D3B248603A2008F0E63 /* RefreshExtension.swift */,
-				6A915D3A248603A2008F0E63 /* RefreshCommonView.swift */,
-				6A915D3C248603A2008F0E63 /* Header */,
-				6A915D37248603A2008F0E63 /* Footer */,
-				6A915D3F248603A2008F0E63 /* SwiftRefreshViewResourse.bundle */,
-			);
-			path = SwiftRefreshView;
-			sourceTree = "<group>";
-		};
-		6A915D37248603A2008F0E63 /* Footer */ = {
-			isa = PBXGroup;
-			children = (
-				6A915D38248603A2008F0E63 /* RefreshFooterView.swift */,
-				6A915D39248603A2008F0E63 /* UINormalRefreshFooterView.swift */,
-			);
-			path = Footer;
-			sourceTree = "<group>";
-		};
-		6A915D3C248603A2008F0E63 /* Header */ = {
-			isa = PBXGroup;
-			children = (
-				6A915D3D248603A2008F0E63 /* UINormalRefreshHeaderView.swift */,
-				6A915D3E248603A2008F0E63 /* RefreshHeaderView.swift */,
-			);
-			path = Header;
 			sourceTree = "<group>";
 		};
 		6A915D47248603B5008F0E63 /* SnapKit */ = {
@@ -303,8 +303,8 @@
 				6A915D94248603B5008F0E63 /* README.md in Resources */,
 				6A915D2F24860372008F0E63 /* LaunchScreen.storyboard in Resources */,
 				6A915D2C24860372008F0E63 /* Assets.xcassets in Resources */,
-				6A915D46248603A2008F0E63 /* SwiftRefreshViewResourse.bundle in Resources */,
 				6A915D2A2486036E008F0E63 /* Main.storyboard in Resources */,
+				6A325882257DFD2A00C3B217 /* SwiftRefreshViewResourse.bundle in Resources */,
 				6A915D6F248603B5008F0E63 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,6 +319,7 @@
 				6A915D81248603B5008F0E63 /* ConstraintLayoutGuide.swift in Sources */,
 				6A915D7F248603B5008F0E63 /* UILayoutSupport+Extensions.swift in Sources */,
 				6A915D93248603B5008F0E63 /* ConstraintMakerRelatable.swift in Sources */,
+				6A32587E257DFD2A00C3B217 /* RefreshCommonView.swift in Sources */,
 				6A915D88248603B5008F0E63 /* ConstraintRelation.swift in Sources */,
 				6A915D272486036E008F0E63 /* ViewController.swift in Sources */,
 				6A915D232486036E008F0E63 /* AppDelegate.swift in Sources */,
@@ -327,23 +328,22 @@
 				6A915D8D248603B5008F0E63 /* Debugging.swift in Sources */,
 				6A915D7A248603B5008F0E63 /* ConstraintMakerExtendable.swift in Sources */,
 				6A915D7E248603B5008F0E63 /* ConstraintConfig.swift in Sources */,
+				6A32587C257DFD2A00C3B217 /* RefreshFooterView.swift in Sources */,
 				6A915D86248603B5008F0E63 /* ConstraintMakerEditable.swift in Sources */,
+				6A325881257DFD2A00C3B217 /* RefreshHeaderView.swift in Sources */,
 				6A915D85248603B5008F0E63 /* ConstraintOffsetTarget.swift in Sources */,
+				6A32587F257DFD2A00C3B217 /* RefreshExtension.swift in Sources */,
 				6A915D92248603B5008F0E63 /* ConstraintLayoutSupportDSL.swift in Sources */,
 				6A915D7D248603B5008F0E63 /* ConstraintDirectionalInsetTarget.swift in Sources */,
 				6A915D71248603B5008F0E63 /* LayoutConstraintItem.swift in Sources */,
 				6A915D79248603B5008F0E63 /* ConstraintDSL.swift in Sources */,
-				6A915D41248603A2008F0E63 /* UINormalRefreshFooterView.swift in Sources */,
 				6A915D91248603B5008F0E63 /* ConstraintDirectionalInsets.swift in Sources */,
-				6A915D42248603A2008F0E63 /* RefreshCommonView.swift in Sources */,
 				6A915D7B248603B5008F0E63 /* ConstraintPriority.swift in Sources */,
 				6A915D8E248603B5008F0E63 /* ConstraintRelatableTarget.swift in Sources */,
 				6A915D8F248603B5008F0E63 /* LayoutConstraint.swift in Sources */,
 				6A915D70248603B5008F0E63 /* ConstraintMultiplierTarget.swift in Sources */,
 				6A915D80248603B5008F0E63 /* ConstraintView.swift in Sources */,
 				6A915D76248603B5008F0E63 /* ConstraintPriorityTarget.swift in Sources */,
-				6A915D44248603A2008F0E63 /* UINormalRefreshHeaderView.swift in Sources */,
-				6A915D45248603A2008F0E63 /* RefreshHeaderView.swift in Sources */,
 				6A915D90248603B5008F0E63 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
 				6A915D78248603B5008F0E63 /* ConstraintMakerFinalizable.swift in Sources */,
 				6A915D74248603B5008F0E63 /* ConstraintAttributes.swift in Sources */,
@@ -352,11 +352,11 @@
 				6A915D89248603B5008F0E63 /* ConstraintLayoutGuideDSL.swift in Sources */,
 				6A915D252486036E008F0E63 /* SceneDelegate.swift in Sources */,
 				6A915D75248603B5008F0E63 /* ConstraintViewDSL.swift in Sources */,
+				6A32587D257DFD2A00C3B217 /* UINormalRefreshFooterView.swift in Sources */,
+				6A325880257DFD2A00C3B217 /* UINormalRefreshHeaderView.swift in Sources */,
 				6A915D8B248603B5008F0E63 /* ConstraintItem.swift in Sources */,
 				6A915D87248603B5008F0E63 /* ConstraintMaker.swift in Sources */,
-				6A915D43248603A2008F0E63 /* RefreshExtension.swift in Sources */,
 				6A915D7C248603B5008F0E63 /* ConstraintInsetTarget.swift in Sources */,
-				6A915D40248603A2008F0E63 /* RefreshFooterView.swift in Sources */,
 				6A915D84248603B5008F0E63 /* ConstraintConstantTarget.swift in Sources */,
 				6A915D83248603B5008F0E63 /* Typealiases.swift in Sources */,
 				6A915D8C248603B5008F0E63 /* Constraint.swift in Sources */,

@@ -12,8 +12,13 @@ class RefreshFooterView: RefreshCommonView {
      
     override func scrollDidChangContentOffset(_ change: [NSKeyValueChangeKey : Any]?){
         super.scrollDidChangContentOffset(change)
-        let realScrollViewContentH = self.scrollView!.safeAreaInsets.top + self.scrollView!.re_contentInsetTop + self.scrollView!.re_contentH + self.scrollView!.re_contentInsetBottom + self.scrollView!.safeAreaInsets.bottom
-        let realScrollViewContentOffsetY = self.scrollView!.re_contentOffsetY + self.scrollView!.safeAreaInsets.top + self.scrollView!.re_contentInsetTop
+        
+        let oldPoint = change?[NSKeyValueChangeKey(rawValue: "old")] as! CGPoint
+        let newPoint = change?[NSKeyValueChangeKey(rawValue: "new")] as! CGPoint
+        if newPoint.y <= oldPoint.y {return}
+        
+        let realScrollViewContentH = self.scrollView!.re_safeAreaInsetsTop + self.scrollView!.re_contentInsetTop + self.scrollView!.re_contentH + self.scrollView!.re_contentInsetBottom + self.scrollView!.re_safeAreaInsetsBottom
+        let realScrollViewContentOffsetY = self.scrollView!.re_contentOffsetY + self.scrollView!.re_safeAreaInsetsTop + self.scrollView!.re_contentInsetTop
         if realScrollViewContentH > self.scrollView!.re_height{
             if realScrollViewContentOffsetY > realScrollViewContentH - self.scrollView!.re_height{
                 if self.state == .normal {
@@ -31,8 +36,8 @@ class RefreshFooterView: RefreshCommonView {
     }
     override func scrollDidChangContentSize(_ change: [NSKeyValueChangeKey : Any]?){
         super.scrollDidChangContentSize(change)
-        self.re_top = self.scrollView!.contentSize.height + self.scrollViewDefaultContentInsetBottom
-        self.scrollView!.re_contentInsetBottom = 60 + self.scrollViewDefaultContentInsetBottom
+        self.re_top = self.scrollView!.contentSize.height //+ self.scrollViewDefaultContentInsetBottom
+        self.scrollView!.re_contentInsetBottom = self.re_height + self.scrollViewDefaultContentInsetBottom
     }
     func setRefreshStateIsNoMoreData() {
         self.state = .noMoreData
